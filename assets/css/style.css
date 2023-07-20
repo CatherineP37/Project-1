@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Darker+Grotesque:wght@400;500;600;700;800&family=Lato:wght@300&family=Open+Sans:ital,wght@1,300;1,700&family=Oswald:wght@300;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +12,11 @@ body {
     background-color: #F1CF8F;
 }
 
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
 /* header */
 
 header {
@@ -18,19 +25,22 @@ header {
     overflow: hidden;
 }
 
-header h1 {
+#logo {
     color: #503503;
     font-family: Amatic SC;
     font-size: 320%;
     display: inline-block;
     margin: 0;
+    text-decoration: none;
+    padding-left: 20px;
+    float: left;
 }
 
 nav {
     font-size: 110%;
     padding: 0;
     margin: 0;
-    width: 50%;
+    width: 100%;
     float: right;
 }
 
@@ -39,10 +49,7 @@ ul {
     padding: 0;
 }
 
-#logo {
-    text-decoration: none;
-    padding-left: 20px;
-}
+
 
 #logo,
 ul {
@@ -74,10 +81,68 @@ nav li a:hover {
     font-weight: bold;
 }
 
-/* hero image */
+/* main section. Photo by Arina Krasnikova: https: //www.pexels.com/photo/adorable-cats-on-the-floor-carpet-7725961/  */
 
-#hero-image {
-    height: 600px;
+#main-section {
+    height: 1000px;
     width: 100%;
-    background: url('../images/cats.jpg') no-repeat center center;
+    overflow: hidden;
+}
+
+
+
+
+#left-column {
+    background: url('../images/cats.jpg') center center no-repeat;
+    height: 1000px;
+    width: 50%;
+    float: left;
+}
+
+#right-column {
+    height: 1000px;
+    width: 50%;
+    float: right;
+    position: relative;
+}
+
+h1 {
+    color: #503503;
+    font-family: Amatic SC;
+    font-size: 700%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+button {
+    background-color: #503503;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    left: 40%;
+}
+
+button a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 200%;
+    letter-spacing: 2px;
+}
+
+
+/* about section */
+
+#about {
+    background-color: #503503;
+}
+
+#about-text {
+    color: #FFFFFF;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    line-height: 25px;
 }
