@@ -114,23 +114,29 @@ h1 {
     margin-top: 100px;
 }
 
-button {
+#button {
     background-color: #503503;
     border-radius: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
     position: absolute;
-    left: 40%;
-}
-
-button a {
+    left: 37%;
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 200%;
+    font-size: 120%;
     letter-spacing: 2px;
+    font-family: Arial;
 }
+
+#button:hover {
+    background-color: #5C4314;
+}
+
+
+
+
 
 
 /* about section */
@@ -141,7 +147,7 @@ button a {
 
 #about-text {
     color: #FFFFFF;
-    text-align: center;
+    text-align: left;
     width: 50%;
     margin: auto;
     line-height: 25px;
