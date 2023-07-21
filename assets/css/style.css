@@ -137,8 +137,6 @@ h1 {
 
 
 
-
-
 /* about section */
 
 #about {
@@ -151,4 +149,44 @@ h1 {
     width: 50%;
     margin: auto;
     line-height: 25px;
+}
+
+/* cats section */
+
+.column {
+    float: left;
+    width: 30%;
+    margin: 30px;
+}
+
+.column a {
+    text-align: center;
+    padding: 20px;
+    background-color: #503503;
+    color: #FFFFFF;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 64%;
+}
+
+.column a:hover {
+    background-color: #5C4314;
+}
+
+.row img {
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h3 {
+    text-align: center;
 }
