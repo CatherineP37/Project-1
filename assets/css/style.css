@@ -17,6 +17,13 @@ h2 {
     font-weight: bold;
 }
 
+#back-button {
+    background-color: #5C4314;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Arial;
+}
+
 /* header */
 
 header {
@@ -226,7 +233,7 @@ textarea {
     background-color: #F1CF8F;
     color: #503503;
     padding: 10px 20px 10px 20px;
-    border-radius: 5px;   
+    border-radius: 5px;
     font-family: Arial;
     font-weight: bold;
     font-size: 1em;
@@ -242,13 +249,13 @@ textarea {
 
 #donate {
     background-color: #503503;
-    width: 100%;   
+    width: 100%;
 }
 
-#donate-text {       
+#donate-text {
     color: #FFFFFF;
     margin: auto;
-    width: 20%;    
+    width: 20%;
     line-height: 25px;
     padding: 20px;
 }
@@ -265,7 +272,7 @@ footer {
     height: 100px;
 }
 
-footer > ul {
+footer>ul {
     text-align: center;
 }
 
@@ -279,4 +286,3 @@ footer i {
     padding: 2%;
     color: #503503;
 }
-    
