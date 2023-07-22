@@ -259,5 +259,24 @@ textarea {
     text-align: left;
 }
 
+/* footer */
 
+footer {
+    height: 100px;
+}
+
+footer > ul {
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+}
+
+footer i {
+    font-size: 170%;
+    margin: 2%;
+    padding: 2%;
+    color: #503503;
+}
     
