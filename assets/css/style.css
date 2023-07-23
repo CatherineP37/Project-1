@@ -96,9 +96,6 @@ nav li a:hover {
     overflow: hidden;
 }
 
-
-
-
 #left-column {
     background: url('../images/cats.jpg') center center no-repeat;
     height: 1000px;
@@ -338,36 +335,59 @@ textarea {
 #cat {
     height: 1000px;
     width: 100%;
-    overflow: hidden;
-    background-color: pink;
+    background-color: #5C4314;
 }
 
 
 .cat-left-column {
-    height: 1000px;
-    width: 50%;
+    height: 960px;
+    width: 40%;
     float: left;
+    overflow: hidden;
+    background-color: #503503;
+    padding: 20px 70px 20px 70px;
+    color: #FFFFFF;
 }
 
-.cat-left-column img {
-    width: 100%;
+.cat-left-column h3 {
+    color: #FFFFFF;
+    text-align: left;
 }
+
+.description {
+    width: 90%;
+}
+
+
+
+.cat-left-column img {
+    width: 90%;
+}
+
+
 
 .cat-right-column {
     height: 1000px;
+    float: right;
     width: 50%;
     color: #FFFFFF;
-    background-color: green;
-    padding: 20px;
+    background-color: #5C4314;
 }
 
 .cat-right-column form {
     background-color: #503503;
-    width: 50%;
+    width: 70%;
     height: 370px;
     margin: 100px auto;
-    padding: 50px;
+    padding: 70px;
 }
+
+.cat-right-column form h2,
+h3 {
+    color: #ffffff;
+    font-weight: normal;
+}
+
 
 
 .cat-right-column input,
