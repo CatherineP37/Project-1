@@ -91,20 +91,24 @@ nav li a:hover {
 /* main section. Photo by Arina Krasnikova: https: //www.pexels.com/photo/adorable-cats-on-the-floor-carpet-7725961/  */
 
 #main-section {
-    height: 1000px;
+    height: auto;
     width: 100%;
     overflow: hidden;
 }
 
-#left-column {
-    background: url('../images/cats.jpg') center center no-repeat;
-    height: 1000px;
+.left-column {
+    height: auto;
     width: 50%;
     float: left;
 }
 
-#right-column {
-    height: 1000px;
+.left-column img {
+    width: 100%;
+    height: auto;
+}
+
+.right-column {
+    height: auto;
     width: 50%;
     float: right;
     position: relative;
@@ -157,10 +161,24 @@ h1 {
 
 /* cats section */
 
+#cats {
+    background-color: blue;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.row {
+    background-color: purple;
+    margin: 0 auto;
+}
+
 .column {
     float: left;
     width: 30%;
-    margin: 30px;
+    margin: 1%;
+    padding: 0;
+    background-color: green;
+
 }
 
 .column a {
@@ -180,9 +198,10 @@ h1 {
 }
 
 .row img {
-    height: 400px;
+    height: auto;
     display: block;
     margin: 0 auto;
+    width: 70%;
 }
 
 .row:after {
@@ -200,16 +219,16 @@ h3 {
 
 #contact {
     background-color: #5C4314;
-    padding: 20px;
+    padding: 20%;
 }
 
 form {
     background-color: #503503;
     width: 50%;
-    height: 370px;
-    margin: 100px auto;
+    height: auto;
+    margin: 10% auto;
     color: #FFFFFF;
-    padding: 50px;
+    padding: 10%;
 }
 
 form div {
@@ -394,4 +413,47 @@ textarea {
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+/* Media queries */
+
+/* For larger screens */
+
+@media screen and (max-width: 1194px) {
+    .left-column {
+        width: 100%;
+        clear: left;
+    }
+
+
+    .right-column {
+        width: 100%;
+        clear: right;
+    }
+
+    #about-text {
+        width: 80%;
+    }
+
+}
+
+/* For smaller screens */
+
+@media screen and (max-width: 558px) {
+    .column {
+        clear: left;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .column a {
+        width: 80%;
+    }
+
+
+    .row img {
+        width: 80%;
+    }
+
+
 }
