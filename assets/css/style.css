@@ -371,7 +371,6 @@ textarea {
     float: right;
     width: 50%;
     color: #FFFFFF;
-    background-color: #5C4314;
 }
 
 .cat-right-column form {
@@ -383,7 +382,7 @@ textarea {
 }
 
 .cat-right-column form h2,
-h3 {
+.cat-right-column form h3 {
     color: #ffffff;
     font-weight: normal;
 }
