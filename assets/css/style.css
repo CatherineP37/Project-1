@@ -165,17 +165,21 @@ h1 {
     background-color: blue;
     margin: 0 auto;
     padding: 0;
+    width: 100%;
+
 }
 
 .row {
     background-color: purple;
     margin: 0 auto;
+    width: 90%;
+    clear: both;
 }
 
 .column {
     float: left;
     width: 30%;
-    margin: 1%;
+    margin: 0 auto;
     padding: 0;
     background-color: green;
 
