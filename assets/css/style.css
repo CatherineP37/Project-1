@@ -169,14 +169,17 @@ h1 {
 
 }
 
-.row {
+.container {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     background-color: purple;
     margin: 0 auto;
-    width: 90%;
-    clear: both;
+    width: 90%;      
 }
 
-.column {
+.boxes {
     float: left;
     width: 30%;
     margin: 0 auto;
@@ -185,7 +188,7 @@ h1 {
 
 }
 
-.column a {
+.boxes a {
     text-align: center;
     padding: 20px;
     background-color: #503503;
@@ -197,22 +200,18 @@ h1 {
     width: 64%;
 }
 
-.column a:hover {
+.boxes a:hover {
     background-color: #5C4314;
 }
 
-.row img {
+.boxes img {
     height: auto;
     display: block;
     margin: 0 auto;
     width: 70%;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 
 h3 {
     text-align: center;
