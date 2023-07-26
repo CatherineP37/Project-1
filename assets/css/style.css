@@ -173,7 +173,7 @@ h1 {
     display: grid;
     grid-gap: 15px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
     background-color: purple;
     margin: 0 auto;
     width: 90%;      
@@ -181,7 +181,7 @@ h1 {
 
 .boxes {
     float: left;
-    width: 30%;
+    width: 90%;
     margin: 0 auto;
     padding: 0;
     background-color: green;
@@ -423,39 +423,15 @@ textarea {
 /* For larger screens */
 
 @media screen and (max-width: 1194px) {
-    .left-column {
-        width: 100%;
-        clear: left;
-    }
-
-
-    .right-column {
-        width: 100%;
-        clear: right;
-    }
-
-    #about-text {
-        width: 80%;
-    }
-
+    
 }
 
 /* For smaller screens */
 
 @media screen and (max-width: 558px) {
-    .column {
-        clear: left;
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .column a {
-        width: 80%;
-    }
-
-
-    .row img {
-        width: 80%;
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 
 
