@@ -446,33 +446,22 @@ textarea {
 @media screen and (max-width: 1194px) {
     /* header */
 
-    .toggle_button {
-        display: block;
+
+
+    /* For mobile screens */
+
+    @media screen and (max-width: 558px) {
+
+
+
+        /* cats section */
+
+        .container {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        }
+
+
+
+
     }
-
-    ul {
-        display: none;
-    }
-
-    .dropdown_menu {
-        display: block;
-    }
-}
-
-/* For mobile screens */
-
-@media screen and (max-width: 558px) {
-
-
-
-    /* cats section */
-
-    .container {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    }
-
-
-
-
-}
