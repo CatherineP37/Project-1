@@ -30,17 +30,17 @@ header {
     padding: 0;
     margin: 0;
     overflow: hidden;
+    display: grid;
 }
 
-#logo {
+.logo a {
     color: #503503;
     font-family: Amatic SC;
     font-size: 320%;
-    display: inline-block;
     margin: 0;
     text-decoration: none;
     padding-left: 20px;
-    float: left;
+
 }
 
 nav {
@@ -48,17 +48,19 @@ nav {
     padding: 0;
     margin: 0;
     width: 100%;
-    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+
 
 ul {
     margin: 0;
     padding: 0;
 }
 
-
-
-#logo,
+.logo,
 ul {
     line-height: 70px;
 }
@@ -86,6 +88,25 @@ nav li a:hover {
 
 .active {
     font-weight: bold;
+}
+
+.dropdown_menu {
+    position: absolute;
+    right: 1rem;
+    width: 300px;
+    overflow: hidden;
+    display: none;
+    height: 0;
+}
+
+.dropdown_menu li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown_menu.open {
+    height: 250px;
 }
 
 /* main section. Photo by Arina Krasnikova: https: //www.pexels.com/photo/adorable-cats-on-the-floor-carpet-7725961/  */
@@ -173,10 +194,10 @@ h1 {
     display: grid;
     grid-gap: 15px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
     background-color: purple;
     margin: 0 auto;
-    width: 90%;      
+    width: 90%;
 }
 
 .boxes {
@@ -420,19 +441,38 @@ textarea {
 
 /* Media queries */
 
-/* For larger screens */
+/* For tablet screens */
 
 @media screen and (max-width: 1194px) {
-    
+    /* header */
+
+    .toggle_button {
+        display: block;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .dropdown_menu {
+        display: block;
+    }
 }
 
-/* For smaller screens */
+/* For mobile screens */
 
 @media screen and (max-width: 558px) {
+
+
+
+    /* cats section */
+
     .container {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
+
+
 
 
 }
