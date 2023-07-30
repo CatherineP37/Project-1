@@ -143,5 +143,23 @@ main {
     letter-spacing: 2px;
     font-family: Arial;
     margin: 30px auto 20px auto;
+}
 
+/* About section */
+
+#about {
+    background-color: #503503;
+    padding: 30px;
+}
+
+#about-text {
+    color: #FFFFFF;
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    line-height: 25px;
+}
+
+#about-text h2 {
+    padding-bottom: 10px;
 }
