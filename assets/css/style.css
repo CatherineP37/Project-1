@@ -123,6 +123,12 @@ main {
     padding-top: 30px;
 }
 
+.contact_and_button {
+    text-align: center;
+}
+
+
+
 #button {
     background-color: #503503;
     display: inline-block;
@@ -136,6 +142,6 @@ main {
     font-size: 120%;
     letter-spacing: 2px;
     font-family: Arial;
-    text-align: center;
-    margin: auto;
+    margin: 30px auto 20px auto;
+
 }
