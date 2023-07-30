@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -29,9 +30,16 @@ h2 {
 header {
     padding: 0;
     margin: 0;
-    overflow: hidden;
-    display: grid;
+
+
 }
+
+.logo {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+}
+
 
 .logo a {
     color: #503503;
@@ -40,19 +48,28 @@ header {
     margin: 0;
     text-decoration: none;
     padding-left: 20px;
-
 }
 
+
+/*
 nav {
     font-size: 110%;
     padding: 0;
     margin: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    width: 30%;
+    float: right;
 }
+*/
 
+nav {
+    top: 0;
+    position: relative;
+    float: right;
+    width: fit-content;
+    font-size: 110%;
+    padding: 0;
+    margin: 0;
+}
 
 
 ul {
@@ -70,7 +87,7 @@ header nav a {
 }
 
 header nav li {
-    float: right;
+    float: left;
     list-style-type: none;
     margin-right: 10px;
     color: #503503;
@@ -90,24 +107,10 @@ nav li a:hover {
     font-weight: bold;
 }
 
-.dropdown_menu {
-    position: absolute;
-    right: 1rem;
-    width: 300px;
-    overflow: hidden;
+.menu_button {
     display: none;
-    height: 0;
 }
 
-.dropdown_menu li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.dropdown_menu.open {
-    height: 250px;
-}
 
 /* main section. Photo by Arina Krasnikova: https: //www.pexels.com/photo/adorable-cats-on-the-floor-carpet-7725961/  */
 
@@ -444,15 +447,78 @@ textarea {
 /* For tablet screens */
 
 @media screen and (max-width: 1194px) {
-    /* header */
 
+    /* header */
 
 
     /* For mobile screens */
 
     @media screen and (max-width: 558px) {
 
+        /* header */
 
+        ul li a {
+            display: block;
+        }
+
+        nav {
+            max-height: 0;
+            transition: max-height .5s ease-out;
+        }
+
+        .menu_button {
+            float: right;
+            padding: 40px 20px
+        }
+
+        .button_line {
+            background: white;
+            display: block;
+            height: 2px;
+            position: relative;
+            width: 25px;
+        }
+
+        .button_line::before,
+        .button_line::after {
+            background: white;
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            transition: all .2s ease-out;
+            width: 100%
+        }
+
+        .button_line::before {
+            top: 5px;
+        }
+
+        .button_line::after {
+            top: -5px;
+        }
+
+        .menu {
+            display: none;
+        }
+
+        .menu: checked~nav {
+            max-height: 100%;
+        }
+
+        .menu:checked~.menu_button .button_line {
+            background: transparent;
+        }
+
+        .menu:checked~.menu_button .button_line::before {
+            transform: rotate(-45deg);
+            top: 0;
+        }
+
+        .menu:checked~.menu_button .button_line::after {
+            transform: rotate(-45deg);
+            top: 0;
+        }
 
         /* cats section */
 
