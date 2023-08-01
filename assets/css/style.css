@@ -107,10 +107,12 @@ main {
     margin: 0 auto;
 }
 
-.main-picture img {
+.main-picture {
     width: 100%;
-    height: auto;
+    height: 1500px;
+    background: url('../images/cats_1.jpg') no-repeat center center;
 }
+
 
 .contact_and_button h1 {
     text-align: center;
@@ -143,6 +145,10 @@ main {
     letter-spacing: 2px;
     font-family: Arial;
     margin: 30px auto 20px auto;
+}
+
+#button:hover {
+    background-color: #5C4314;
 }
 
 /* About section */
