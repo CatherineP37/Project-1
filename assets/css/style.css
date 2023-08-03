@@ -211,4 +211,20 @@ main {
     width: 90%;
     margin: 20px auto;
     color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+.boxes img {
+    width: 90%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.description {
+    text-align: left;
+    color: #FFFFFF;
+    line-height: 25px;
+    margin: 0 auto;
+    width: 90%;
 }
