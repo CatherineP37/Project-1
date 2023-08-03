@@ -182,6 +182,8 @@ main {
 #about {
     background-color: #503503;
     padding: 30px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 #about-text {
@@ -194,4 +196,19 @@ main {
 
 #about-text h2 {
     padding-bottom: 10px;
+}
+
+#about img {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+}
+
+/* Cats section */
+
+.boxes {
+    background-color: #5C4314;
+    width: 90%;
+    margin: 20px auto;
+    color: #FFFFFF;
 }
