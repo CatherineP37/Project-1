@@ -205,6 +205,11 @@ main {
 
 /* Cats section */
 
+#cats {
+    background-color: purple;
+
+}
+
 .boxes {
     background-color: #5C4314;
     width: 90%;
@@ -324,6 +329,8 @@ footer i {
 
 @media screen and (min-width: 768px) {
 
+    /* Header */
+
     nav {
         display: block;
         position: relative;
@@ -347,5 +354,102 @@ footer i {
         text-align: left;
         margin-left: 10px;
     }
+
+
+
+}
+
+/* Media query: larger screens */
+
+@media screen and (min-width: 992px) {
+
+    /* header */
+
+    header {
+        position: relative;
+    }
+
+    /* main section. Photo by Arina Krasnikova: https: //www.pexels.com/photo/adorable-cats-on-the-floor-carpet-7725961/  */
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 800px;
+
+    }
+
+    .main-picture {
+        background-image: url('../images/cats_large.webp');
+        background-position: contain;
+        width: 100%;
+        background-color: blue;
+        height: auto;
+
+
+    }
+
+    .contact_and_button {
+        width: 100%;
+        background-color: green;
+        padding-top: 120px;
+    }
+
+
+
+
+    /* About section */
+
+    #about-text {
+        width: 70%;
+
+    }
+
+
+    #about img {
+        width: 70%;
+    }
+
+    /* Cats section */
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 100%;
+        height: auto;
+        background-color: blue;
+        height: 1300px;
+    }
+
+    /* contact form */
+
+
+
+    form {
+        width: 50%;
+
+    }
+
+    form div {
+        margin: 0 auto;
+        background-color: green;
+        width: 50%;
+    }
+
+    /* donate section */
+
+
+
+    #donate-text {
+        margin: 0 auto;
+        width: 30%;
+        background-color: purple;
+    }
+
+
+
+
+
+
 
 }
