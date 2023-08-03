@@ -228,3 +228,49 @@ main {
     margin: 0 auto;
     width: 90%;
 }
+
+/* contact form */
+
+#contact {
+    background-color: #5C4314;
+    padding: 20px;
+}
+
+form {
+    background-color: #503503;
+    width: 95%;
+    height: auto;
+    margin: 10px auto;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+form div {
+    margin: 0 auto;
+    background-color: #503503;
+    width: 97%;
+    padding-top: 20px;
+}
+
+form input,
+textarea {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#submit {
+    background-color: #F1CF8F;
+    color: #503503;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 1em;
+
+}
+
+#submit:hover {
+    background-color: #F9DDA7;
+
+}
