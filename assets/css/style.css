@@ -274,3 +274,28 @@ textarea {
     background-color: #F9DDA7;
 
 }
+
+/* donate section */
+
+#donate {
+    background-color: #503503;
+    width: 100%;
+}
+
+#donate-text {
+    color: #FFFFFF;
+    margin: auto;
+    width: 95%;
+    line-height: 25px;
+    padding: 20px;
+}
+
+#donate-text p {
+    margin-top: 10px;
+}
+
+#donate-text h2 p {
+    font-weight: normal;
+    font-size: 16px;
+    text-align: left;
+}
