@@ -47,7 +47,6 @@ header {
     font-family: Amatic SC;
     font-size: 320%;
     text-decoration: none;
-    width: 100%;
     text-align: center;
     display: inline-block;
 }
@@ -319,4 +318,34 @@ footer i {
     margin: 30px;
     padding: 30px;
     color: #503503;
+}
+
+/* Media query: tablets and larger */
+
+@media screen and (min-width: 768px) {
+
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        padding-left: 1rem;
+    }
+
+    .menu_button {
+        display: none;
+    }
+
+    .logo {
+        font-size: 350%;
+        text-align: left;
+        margin-left: 10px;
+    }
+
 }
