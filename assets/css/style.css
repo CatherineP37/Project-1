@@ -37,7 +37,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
 }
 
 .logo {
@@ -129,13 +128,15 @@ main {
     margin: 0 auto;
 }
 
+
+
 .main-picture {
-    background-image: url('../images/cats_1.jpg');
+    background-image: url('../images/cats_small.webp');
     background-position: center center;
-    background-repeat: no-repeat;
-    background-size: center;
-    height: 700px;
+    height: 50vh;
     width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
