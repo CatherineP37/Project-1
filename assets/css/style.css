@@ -124,7 +124,6 @@ nav {
 main {
     height: auto;
     width: 100%;
-    background-color: pink;
     margin: 0 auto;
 }
 
@@ -206,9 +205,7 @@ main {
 
 /* Cats section */
 
-#cats {
-    background-color: purple;
-}
+
 
 .boxes {
     background-color: #5C4314;
@@ -231,7 +228,7 @@ main {
     line-height: 25px;
     margin: 0 auto;
     width: 90%;
-    background-color: red;
+
 }
 
 /* contact form */
@@ -392,7 +389,6 @@ footer i {
         background-image: url('../images/cats_large.webp');
         background-position: contain;
         width: 100%;
-        background-color: blue;
         height: auto;
 
 
@@ -400,7 +396,6 @@ footer i {
 
     .contact_and_button {
         width: 100%;
-        background-color: green;
         padding-top: 120px;
     }
 
@@ -436,7 +431,6 @@ footer i {
         grid-template-rows: 1fr 1fr;
         width: 100%;
         height: auto;
-        background-color: blue;
         padding: 0;
         margin: 0;
     }
@@ -456,7 +450,6 @@ footer i {
 
     form div {
         margin: 0 auto;
-        background-color: green;
         width: 90%;
     }
 
@@ -466,7 +459,6 @@ footer i {
 
     #donate-text {
         width: 50%;
-        background-color: red;
     }
 
 }
