@@ -259,6 +259,7 @@ textarea {
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 70%;
 }
 
 #submit {
@@ -358,6 +359,13 @@ footer i {
     #button {
         padding-left: 15%;
         padding-right: 15%;
+    }
+
+    /* form */
+
+    form input,
+    textarea {
+        width: 50%;
     }
 
 
