@@ -262,12 +262,16 @@ textarea {
 #submit {
     background-color: #F1CF8F;
     color: #503503;
-    padding: 10px 20px 10px 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
     border-radius: 5px;
     font-family: Arial;
     font-weight: bold;
     font-size: 1em;
-
+    width: 50%;
+    text-align: center;
 }
 
 #submit:hover {
