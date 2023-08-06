@@ -202,6 +202,9 @@ main {
 
 /* Section about the cats */
 
+#cats h2 {
+    margin-top: 10px;
+}
 
 .boxes {
     background-color: #5C4314;
@@ -248,7 +251,6 @@ form div {
     background-color: #503503;
     width: 100%;
     padding-top: 20px;
-    background-color: blue;
 }
 
 #name,
