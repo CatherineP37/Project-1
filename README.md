@@ -65,3 +65,27 @@ For the wider desktop computer media query I copied and pasted the media query f
 The donate button wasn't responsive because the left and right padding was in pixels. I solved this by adding a percentage left and right padding.
 
 The fixed header had to be removed for larger screens as it was covering part of the grid below it and that didn't work with the design. It did work with mobile as there was a picture below it that could be partially covered without messing up the design.
+
+Credits
+
+Images:
+
+Photo by Arina Krasnikova: https: //www.pexels.com/photo/adorable-cats-on-the-floor-carpet-7725961/
+
+Photo by cottonbro studio: <https://www.pexels.com/photo/woman-in-sweater-holding-orange-and-white-cat-6865039/>
+
+Photo by Ellie Burgin: <https://www.pexels.com/photo/cute-cat-on-grassy-ground-4612722/>
+
+Photo by Nikolett Emmert: <https://www.pexels.com/photo/cute-tabby-cat-14440674/>
+
+Photo by Jan Laugesen: <https://www.pexels.com/photo/kitten-sitting-on-white-floor-12573568/>
+
+Photo by Willy Ams: <https://www.pexels.com/photo/close-up-photo-of-white-cat-4056753/>
+
+Photo by Renee Bigelow: <https://www.pexels.com/photo/macro-photo-of-brown-tabby-cat-51439/>
+
+Photo by Dorte: <https://www.pexels.com/photo/white-and-grey-short-fur-cat-beside-grey-rock-during-daytime-179237/>
+
+Navigation toggle menu
+
+The navigation toggle menu was inspired by the navigation menu from the Code Institute Love Running project.
