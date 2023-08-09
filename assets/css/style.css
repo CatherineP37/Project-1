@@ -376,121 +376,121 @@ footer i {
     form div {
         width: 90%;
     }
+}
 
 
+/* Media query: narrow desktop */
 
-    /* Media query: narrow desktop */
+@media screen and (min-width: 992px) {
 
-    @media screen and (min-width: 992px) {
+    /* Header */
 
-        /* Header */
+    header {
+        position: relative;
+    }
 
-        header {
-            position: relative;
-        }
+    /* Main section  */
 
-        /* Main section  */
-
-        main {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            height: 800px;
-
-        }
-
-        .main-picture {
-            background-image: url('../images/cats_large.webp');
-            width: 100%;
-            height: auto;
-
-
-        }
-
-        .contact_and_button {
-            width: 100%;
-            padding-top: 120px;
-        }
-
-        #button {
-            padding-left: 20%;
-            padding-right: 20%;
-        }
-
-
-        /* About section */
-
-        #about-text {
-            width: 70%;
-
-        }
-
-
-        #about img {
-            width: 70%;
-        }
-
-        /* Section about the cats */
-
-        .container {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            width: 100%;
-            height: auto;
-            padding: 0;
-            margin: 0;
-        }
-
-
-        /* Contact form */
-
-
-
-        form {
-            width: 50%;
-
-        }
-
-        form div {
-            width: 80%;
-        }
-
-
-        /* Donate section */
-
-
-
-        #donate-text {
-            width: 50%;
-        }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 800px;
 
     }
 
-    /* Media query: wide desktop */
-
-    @media screen and (min-width: 1200px) {
-
-        /* Main section */
-
-        #button {
-            padding-left: 10%;
-            padding-right: 10%;
-        }
-
-        /* Contact form */
+    .main-picture {
+        background-image: url('../images/cats_large.webp');
+        width: 100%;
+        height: auto;
 
 
-        form div {
-            width: 70%;
-        }
-
-
-
-        /* Donate section */
-
-
-        #donate-text {
-            width: 30%;
-
-        }
     }
+
+    .contact_and_button {
+        width: 100%;
+        padding-top: 120px;
+    }
+
+    #button {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+
+    /* About section */
+
+    #about-text {
+        width: 70%;
+
+    }
+
+
+    #about img {
+        width: 70%;
+    }
+
+    /* Section about the cats */
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    /* Contact form */
+
+
+
+    form {
+        width: 50%;
+
+    }
+
+    form div {
+        width: 80%;
+    }
+
+
+    /* Donate section */
+
+
+
+    #donate-text {
+        width: 50%;
+    }
+
+}
+
+/* Media query: wide desktop */
+
+@media screen and (min-width: 1200px) {
+
+    /* Main section */
+
+    #button {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    /* Contact form */
+
+
+    form div {
+        width: 70%;
+    }
+
+
+
+    /* Donate section */
+
+
+    #donate-text {
+        width: 30%;
+
+    }
+}
