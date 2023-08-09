@@ -389,6 +389,10 @@ footer i {
         position: relative;
     }
 
+    nav li a {
+        font-size: 20px;
+    }
+
     /* Main section  */
 
     main {
