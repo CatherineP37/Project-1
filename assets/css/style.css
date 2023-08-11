@@ -52,7 +52,6 @@ header {
     display: inline-block;
 }
 
-
 ul {
     margin: 0;
     padding: 0;
@@ -133,7 +132,6 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 .contact_and_button h1 {
     text-align: center;
@@ -231,7 +229,6 @@ main {
     line-height: 25px;
     margin: 0 auto;
     width: 90%;
-
 }
 
 /* Contact form */
@@ -250,7 +247,7 @@ form {
     padding: 20px;
 }
 
-form div {
+form section {
     margin: 0 auto;
     background-color: #503503;
     width: 100%;
@@ -274,7 +271,6 @@ form div {
 form p {
     width: 100%;
 }
-
 
 #submit {
     background-color: #F1CF8F;
@@ -380,9 +376,7 @@ footer i {
 
     /* Contact form */
 
-
-
-    form div {
+    form section {
         width: 90%;
     }
 }
@@ -408,15 +402,12 @@ footer i {
         display: grid;
         grid-template-columns: 1fr 1fr;
         height: 800px;
-
     }
 
     .main-picture {
         background-image: url('../images/cats_large.webp');
         width: 100%;
         height: auto;
-
-
     }
 
     .contact_and_button {
@@ -429,14 +420,11 @@ footer i {
         padding-right: 20%;
     }
 
-
     /* About section */
 
     #about-text {
         width: 70%;
-
     }
-
 
     #about img {
         width: 70%;
@@ -454,24 +442,17 @@ footer i {
         margin: 0;
     }
 
-
     /* Contact form */
-
-
 
     form {
         width: 50%;
-
     }
 
-    form div {
+    form section {
         width: 80%;
     }
 
-
     /* Donate section */
-
-
 
     #donate-text {
         width: 50%;
@@ -492,18 +473,13 @@ footer i {
 
     /* Contact form */
 
-
-    form div {
+    form section {
         width: 70%;
     }
 
-
-
     /* Donate section */
-
 
     #donate-text {
         width: 30%;
-
     }
 }
