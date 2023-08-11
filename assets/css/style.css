@@ -125,8 +125,6 @@ main {
     margin: 0 auto;
 }
 
-
-
 .main-picture {
     background-image: url('../images/cats_small.webp');
     background-position: center center;
@@ -151,7 +149,6 @@ main {
 .contact_and_button {
     text-align: center;
 }
-
 
 #button {
     background-color: #503503;
@@ -251,6 +248,11 @@ form div {
     background-color: #503503;
     width: 100%;
     padding-top: 20px;
+}
+
+#name,
+#email {
+    height: 20px;
 }
 
 #name,
