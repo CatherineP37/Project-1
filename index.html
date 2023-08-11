@@ -58,7 +58,7 @@
     <main>
         <div class="main-picture">
         </div>
-        <div class="contact_and_button">
+        <section class="contact_and_button">
             <h1>Cat Shelter</h1>
             <p>7 Tree Lane</p>
             <p>Greenway</p>
@@ -69,13 +69,13 @@
             <a href="#donate" id="button">
                 DONATE
             </a>
-        </div>
+        </section>
     </main>
 
     <!-- About section  -->
 
     <section id="about">
-        <div id="about-text">
+        <section id="about-text">
 
             <h2>About us</h2>
 
@@ -86,7 +86,7 @@
                 has 6 paid staff and several volunteers.</p>
 
 
-        </div>
+        </section>
         <img src="assets/images/woman-with-cat.webp" alt="Woman with a cat.">
     </section>
 
@@ -95,8 +95,8 @@
     <section id="cats">
 
         <h2>Cats available for adoption</h2>
-        <div class="container">
-            <div class="boxes">
+        <section class="container">
+            <section class="boxes">
                 <h3>Barney</h3>
                 <img src="assets/images/barney.webp" alt="Barney">
                 <div class="description">
@@ -105,9 +105,9 @@
                     <p>Barney is a healthy, adventurous cat
                         who needs access to the outdoors.
                         He can share a house with other cats.</p>
-                </div>
+            </section>
             </div>
-            <div class="boxes">
+            <section class="boxes">
                 <h3>Cuddles</h3>
 
                 <img src="assets/images/cuddles.webp" alt="Cuddles">
@@ -119,8 +119,8 @@
                         medical condition and needs medicine
                         for it.</p>
                 </div>
-            </div>
-            <div class="boxes">
+            </section>
+            <section class="boxes">
                 <h3>Jessie</h3>
                 <img src="assets/images/jessie.webp" alt="Jessie">
                 <div class="description">
@@ -130,8 +130,8 @@
                         a quiet home. She has a medical
                         condition and needs a special diet.</p>
                 </div>
-            </div>
-            <div class="boxes">
+            </section>
+            <section class="boxes">
                 <h3>Timmy</h3>
                 <img src="assets/images/timmy.webp" alt="Timmy">
                 <div class="description">
@@ -139,9 +139,9 @@
                     <p>Sex: male</p>
                     <p>Timmy is a shy cat who loves to play.</p>
                 </div>
-            </div>
+            </section>
 
-            <div class="boxes">
+            <section class="boxes">
                 <h3>Polly</h3>
                 <img src="assets/images/polly.webp" alt="Polly">
                 <div class="description">
@@ -150,8 +150,8 @@
                     <p>Polly is a playful cat but she is shy
                         with strangers.</p>
                 </div>
-            </div>
-            <div class="boxes">
+            </section>
+            <section class="boxes">
                 <h3>Bella</h3>
                 <img src="assets/images/bella.webp" alt="Bella">
                 <div class="description">
@@ -161,72 +161,72 @@
                         affection. She has a medical condition
                         and needs a special diet.</p>
                 </div>
+            </section>
+        </section>
+
+        <!-- Contact form  -->
+
+        <section id="contact">
+
+            <form method="POST" action="https://formdump.codeinstitute.net">
+
+                <div>
+                    <h2>Contact us</h2>
+
+                    <label for="name">Name</label>
+                    <br>
+
+                    <input type="text" name="name" id="name" required>
+                    <br>
+
+                    <label for="email">Email address</label>
+                    <br>
+
+                    <input type="email" name="email" id="email" required>
+                    <br>
+
+                    <label for="message">Message</label>
+                    <br>
+
+                    <textarea id="message" name="message" rows="5"></textarea>
+                    <br>
+                    <p>(Please let us know if you’re interested in adopting one of our
+                        cats or if you’d like to volunteer with us.)</p>
+                    <br>
+
+                    <input type="submit" id="submit" value="Send message">
+                </div>
+            </form>
+        </section>
+
+        <!-- Donate section  -->
+
+        <section id="donate">
+            <div id="donate-text">
+
+                <h2>Donate</h2>
+
+                <p>We gratefully accept donations by bank transfer.</p>
+
+                <p>IBAN: 000 0000 0000</p>
+                <p>BIC: 00000000</p>
+
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact form  -->
+        <!-- Footer  -->
 
-    <section id="contact">
-
-        <form method="POST" action="https://formdump.codeinstitute.net">
-
-            <div>
-                <h2>Contact us</h2>
-
-                <label for="name">Name</label>
-                <br>
-
-                <input type="text" name="name" id="name" required>
-                <br>
-
-                <label for="email">Email address</label>
-                <br>
-
-                <input type="email" name="email" id="email" required>
-                <br>
-
-                <label for="message">Message</label>
-                <br>
-
-                <textarea id="message" name="message" rows="5"></textarea>
-                <br>
-                <p>(Please let us know if you’re interested in adopting one of our
-                    cats or if you’d like to volunteer with us.)</p>
-                <br>
-
-                <input type="submit" id="submit" value="Send message">
-            </div>
-        </form>
-    </section>
-
-    <!-- Donate section  -->
-
-    <section id="donate">
-        <div id="donate-text">
-
-            <h2>Donate</h2>
-
-            <p>We gratefully accept donations by bank transfer.</p>
-
-            <p>IBAN: 000 0000 0000</p>
-            <p>BIC: 00000000</p>
-
-        </div>
-    </section>
-
-    <!-- Footer  -->
-
-    <footer>
-        <ul>
-            <li><a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li><a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a></li>
-        </ul>
-    </footer>
+        <footer>
+            <ul>
+                <li><a href="https://facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li><a href="https://instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </footer>
 
 
 
