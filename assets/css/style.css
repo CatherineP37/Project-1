@@ -233,7 +233,7 @@ main {
 
 /* Contact form */
 
-#contact {
+.contact {
     background-color: #5C4314;
     padding: 20px;
 }
@@ -292,7 +292,7 @@ form p {
 
 /* Donate section */
 
-#donate {
+.donate {
     background-color: #503503;
     width: 100%;
 }
