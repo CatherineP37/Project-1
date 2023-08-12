@@ -1,64 +1,74 @@
-Cat Shelter
+# Cat Shelter
 
-The Cat Shelter website is a simple one page website with links to different parts of the page. The purpose of the website is to raise awareness of the cat shelter, to raise funds for the cat shelter and to make it easy for people to adopt cats from the cat shelter.
+The Cat Shelter website is a simple website with links to different parts of the home page. The purpose of the website is to raise awareness of the cat shelter, to raise funds for the cat shelter and to make it easy for people to adopt cats from the cat shelter.
 
 Users of this website will be able to read about the cat shelter, learn about the cats available for adoption and donate money.
 
-amiresponsive.png
+![alt text](amiresponsive.jpeg)
 
-Features
+## Features
 
-Navigation bar
+### Navigation bar
 
 The navigation bar helps users navigate around the webpage. For mobile phones the menu is displayed when the menu toggle button is pressed.
 
-Main picture
+![alt text](header.jpeg)
 
-The main picture shows users what the site is about.
+### Main section
 
-Main section with contact details and donate button
+The main section shows users what the site is about with the title and the picture. It also shows the address, phone number and donate button. These are all very important for an animal shelter, that's why they're in the main section.
 
-This section clearly shows what the website is about. It also shows the contact details and donate button. These are very important for an animal shelter.
+![alt text](main-section.jpeg)
 
-About section
+### About section
 
-This gives the background story of the shelter. This helps build trust and support.
+The about section gives the background story of the shelte, it also contains a picture. This helps build trust and support.
 
-Section about the cats
+![alt text](about.jpeg)
 
-This section shows users what cats are available for adoption. I also gives a description of the cats to help users make a decision.
+### Section about the cats
 
-Contact form
+This section shows users what cats are available for adoption. It also gives a description of the cats to help users make a decision.
+
+![alt text](cats.jpeg)
+
+### Contact form
 
 This gives users an easy way to contact the animal shelter.
 
-Donate section
+![alt text](contact-form.jpeg)
+
+### Donate section
 
 This section gives users the information they need to donate money to the cat shelter online.
 
-Testing
+![alt text](donate.jpeg)
+
+## Testing
 
 My website was tested with the following tools:
 
-- various browsers
+- various browsers: Google Chrome, Microsoft Edge, Safari and Firefox 
 
 - <https://validator.w3.org/>. The first test showed a few errors, I corrected these and then did another test that had no errors.
 
-html test.png
+![alt text](html-test-1.jpeg)
+
+![alt text](html-test-2.jpeg)
 
 = <https://jigsaw.w3.org/css-validator/validator>. The first test showed a few errors. I corrected most of them but it's still showing one error: "496 Parse Error"
 
-css test.png
+![alt text](css-test.jpeg)
 
 - <https://ui.dev/amiresponsive>
 
-amiresponsive.png
+![alt text](amiresponsive.jpeg)
 
 - Lighthouse in Google devtools.
 
-Lighthouse.png
+![alt text](Lighthouse.png)
 
-Bugs
+## Bugs
 
 For the wider desktop computer media query I copied and pasted the media query for narrow desktop computers while forgetting to update the width. This led to lots of problems with the layout but when I fixed it all of those problems were resolved.
 
@@ -66,26 +76,39 @@ The donate button wasn't responsive because the left and right padding was in pi
 
 The fixed header had to be removed for larger screens as it was covering part of the grid below it and that didn't work with the design. It did work with mobile as there was a picture below it that could be partially covered without messing up the design.
 
-Credits
+## Deployment
 
-Images:
+To deploy the site, I followed the instructions from the Love Running project.
 
-Photo by Arina Krasnikova: https: //www.pexels.com/photo/adorable-cats-on-the-floor-carpet-7725961/
+I went to the setting tab of my GitHub repo and selected pages.
 
-Photo by cottonbro studio: <https://www.pexels.com/photo/woman-in-sweater-holding-orange-and-white-cat-6865039/>
+I made sure that the source was set to 'Deploy from Branch', the main branch was selected and the folter was set to / (root). Then I clicked save and waited for
+the build to finish. Finally I clicked on 'github-pages'.
 
-Photo by Ellie Burgin: <https://www.pexels.com/photo/cute-cat-on-grassy-ground-4612722/>
+Here is the deployed site:
 
-Photo by Nikolett Emmert: <https://www.pexels.com/photo/cute-tabby-cat-14440674/>
+[title](<https://catherinep37.github.io/Project-1/>)
 
-Photo by Jan Laugesen: <https://www.pexels.com/photo/kitten-sitting-on-white-floor-12573568/>
+## Credits
 
-Photo by Willy Ams: <https://www.pexels.com/photo/close-up-photo-of-white-cat-4056753/>
+### Images:
 
-Photo by Renee Bigelow: <https://www.pexels.com/photo/macro-photo-of-brown-tabby-cat-51439/>
+Photo by Arina Krasnikova: [title](https: //www.pexels.com/photo/adorable-cats-on-the-floor-carpet-7725961/)
 
-Photo by Dorte: <https://www.pexels.com/photo/white-and-grey-short-fur-cat-beside-grey-rock-during-daytime-179237/>
+Photo by cottonbro studio: [title](<https://www.pexels.com/photo/woman-in-sweater-holding-orange-and-white-cat-6865039/>)
 
-Navigation toggle menu
+Photo by Ellie Burgin: [title](<https://www.pexels.com/photo/cute-cat-on-grassy-ground-4612722/>)
+
+Photo by Nikolett Emmert: [title](<https://www.pexels.com/photo/cute-tabby-cat-14440674/>)
+
+Photo by Jan Laugesen: [title](<https://www.pexels.com/photo/kitten-sitting-on-white-floor-12573568/>)
+
+Photo by Willy Ams: [title](<https://www.pexels.com/photo/close-up-photo-of-white-cat-4056753/>)
+
+Photo by Renee Bigelow: [title](<https://www.pexels.com/photo/macro-photo-of-brown-tabby-cat-51439/>)
+
+Photo by Dorte: [title](<https://www.pexels.com/photo/white-and-grey-short-fur-cat-beside-grey-rock-during-daytime-179237/>)
+
+### Navigation toggle menu
 
 The navigation toggle menu was inspired by the navigation menu from the Code Institute Love Running project.
