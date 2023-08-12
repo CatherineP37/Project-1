@@ -22,7 +22,7 @@ The main section shows users what the site is about with the title and the pictu
 
 ### About section
 
-The about section gives the background story of the shelte, it also contains a picture. This helps build trust and support.
+The about section gives the background story of the shelter, it also contains a picture. This helps build trust and support.
 
 ![alt text](about.jpeg)
 
@@ -50,17 +50,21 @@ My website was tested with the following tools:
 
 - various browsers: Google Chrome, Microsoft Edge, Safari and Firefox 
 
-- <https://validator.w3.org/>. The first test showed a few errors, I corrected these and then did another test that had no errors.
+- [title](<https://validator.w3.org/>. 
+  
+The first test showed a few errors, I corrected these and then did another test that had no errors.)
 
 ![alt text](html-test-1.jpeg)
 
 ![alt text](html-test-2.jpeg)
 
-= <https://jigsaw.w3.org/css-validator/validator>. The first test showed a few errors. I corrected most of them but it's still showing one error: "496 Parse Error"
+- [title](<https://jigsaw.w3.org/css-validator/validator>)
+
+This test showed no errors.
 
 ![alt text](css-test.jpeg)
 
-- <https://ui.dev/amiresponsive>
+- [title](<https://ui.dev/amiresponsive>)
 
 ![alt text](amiresponsive.jpeg)
 
