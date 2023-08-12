@@ -50,7 +50,7 @@ My website was tested with the following tools:
 
 - various browsers: Google Chrome, Microsoft Edge, Safari and Firefox 
 
-- [title](<https://validator.w3.org/>. 
+- [title](https://validator.w3.org/)
   
 The first test showed a few errors, I corrected these and then did another test that had no errors.)
 
@@ -58,13 +58,13 @@ The first test showed a few errors, I corrected these and then did another test 
 
 ![alt text](html-test-2.jpeg)
 
-- [title](<https://jigsaw.w3.org/css-validator/validator>)
+- [title](https://jigsaw.w3.org/css-validator/validator)
 
 This test showed no errors.
 
 ![alt text](css-test.jpeg)
 
-- [title](<https://ui.dev/amiresponsive>)
+- [title](https://ui.dev/amiresponsive)
 
 ![alt text](amiresponsive.jpeg)
 
@@ -91,7 +91,7 @@ the build to finish. Finally I clicked on 'github-pages'.
 
 Here is the deployed site:
 
-[title](<https://catherinep37.github.io/Project-1/>)
+[title](https://catherinep37.github.io/Project-1/)
 
 ## Credits
 
@@ -99,19 +99,19 @@ Here is the deployed site:
 
 Photo by Arina Krasnikova: [title](https: //www.pexels.com/photo/adorable-cats-on-the-floor-carpet-7725961/)
 
-Photo by cottonbro studio: [title](<https://www.pexels.com/photo/woman-in-sweater-holding-orange-and-white-cat-6865039/>)
+Photo by cottonbro studio: [title](https://www.pexels.com/photo/woman-in-sweater-holding-orange-and-white-cat-6865039/)
 
-Photo by Ellie Burgin: [title](<https://www.pexels.com/photo/cute-cat-on-grassy-ground-4612722/>)
+Photo by Ellie Burgin: [title](https://www.pexels.com/photo/cute-cat-on-grassy-ground-4612722/)
 
-Photo by Nikolett Emmert: [title](<https://www.pexels.com/photo/cute-tabby-cat-14440674/>)
+Photo by Nikolett Emmert: [title](https://www.pexels.com/photo/cute-tabby-cat-14440674/)
 
-Photo by Jan Laugesen: [title](<https://www.pexels.com/photo/kitten-sitting-on-white-floor-12573568/>)
+Photo by Jan Laugesen: [title](<https://www.pexels.com/photo/kitten-sitting-on-white-floor-12573568/)
 
-Photo by Willy Ams: [title](<https://www.pexels.com/photo/close-up-photo-of-white-cat-4056753/>)
+Photo by Willy Ams: [title](https://www.pexels.com/photo/close-up-photo-of-white-cat-4056753/)
 
-Photo by Renee Bigelow: [title](<https://www.pexels.com/photo/macro-photo-of-brown-tabby-cat-51439/>)
+Photo by Renee Bigelow: [title](https://www.pexels.com/photo/macro-photo-of-brown-tabby-cat-51439/)
 
-Photo by Dorte: [title](<https://www.pexels.com/photo/white-and-grey-short-fur-cat-beside-grey-rock-during-daytime-179237/>)
+Photo by Dorte: [title](https://www.pexels.com/photo/white-and-grey-short-fur-cat-beside-grey-rock-during-daytime-179237/)
 
 ### Navigation toggle menu
 
