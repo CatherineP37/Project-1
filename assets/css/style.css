@@ -177,7 +177,7 @@ main {
 
 /* About section */
 
-.about {
+#about {
     background-color: #503503;
     padding: 30px;
     margin: 0 auto;
@@ -196,7 +196,7 @@ main {
     padding-bottom: 10px;
 }
 
-.about img {
+#about img {
     width: 90%;
     height: auto;
     margin: 20px auto;
@@ -233,7 +233,7 @@ main {
 
 /* Contact form */
 
-.contact {
+#contact {
     background-color: #5C4314;
     padding: 20px;
 }
@@ -292,7 +292,7 @@ form p {
 
 /* Donate section */
 
-.donate {
+#donate {
     background-color: #503503;
     width: 100%;
 }
@@ -425,7 +425,7 @@ footer i {
         width: 70%;
     }
 
-    .about img {
+    #about img {
         width: 70%;
     }
 
