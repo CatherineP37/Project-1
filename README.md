@@ -4,7 +4,7 @@ The Cat Shelter website is a simple website with links to different parts of the
 
 Users of this website will be able to read about the cat shelter, learn about the cats available for adoption and donate money.
 
-![Responsive Mockup](amiresponsive.jpeg)
+![Responsive Mockup](assets/images/amiresponsive.jpeg)
 
 ## Features
 
@@ -12,37 +12,37 @@ Users of this website will be able to read about the cat shelter, learn about th
 
 The navigation bar helps users navigate around the webpage. For mobile phones the menu is displayed when the menu toggle button is pressed.
 
-![Header]](header.jpeg)
+![Header]](assets/images/header.jpeg)
 
 ### Main section
 
 The main section shows users what the site is about with the title and the picture. It also shows the address, phone number and donate button. These are all very important for an animal shelter, that's why they're in the main section.
 
-![Main Section](main-section.jpeg)
+![Main Section](assets/images/main-section.jpeg)
 
 ### About section
 
 The about section gives the background story of the shelter, it also contains a picture. This helps build trust and support.
 
-![About Section](about.jpeg)
+![About Section](assets/images/about.jpeg)
 
 ### Section about the cats
 
 This section shows users what cats are available for adoption. It also gives a description of the cats to help users make a decision.
 
-![Section about Cats](cats.jpeg)
+![Section about Cats](assets/images/cats.jpeg)
 
 ### Contact form
 
 This gives users an easy way to contact the animal shelter.
 
-![Contact Form](contact-form.jpeg)
+![Contact Form](assets/images/contact-form.jpeg)
 
 ### Donate section
 
 This section gives users the information they need to donate money to the cat shelter online.
 
-![Donate Section](donate.jpeg)
+![Donate Section](assets/images/donate.jpeg)
 
 ## Testing
 
@@ -54,23 +54,23 @@ My website was tested with the following tools:
   
 The first test showed a few errors, I corrected these and then did another test that had no errors.)
 
-![Test 1](html-test-1.jpeg)
+![Test 1](assets/images/html-test-1.jpeg)
 
-![Test 2](html-test-2.jpeg)
+![Test 2](assets/images/html-test-2.jpeg)
 
-- [CSS Test](https://jigsaw.w3.org/css-validator/validator)
+- [CSS Test](<https://jigsaw.w3.org/css-validator/validator>)
 
 This test showed no errors.
 
-![CSS Test Result](css-test.jpeg)
+![CSS Test Result](assets/images/css-test.jpeg)
 
 - [Amiresponsive test](https://ui.dev/amiresponsive)
 
-![Test Result](amiresponsive.jpeg)
+![Test Result](assets/images/amiresponsive.jpeg)
 
 - Lighthouse in Google devtools.
 
-![Lighthouse Test](Lighthouse.png)
+![Lighthouse Test](assets/images/Lighthouse.png)
 
 ## Bugs
 
