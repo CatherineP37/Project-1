@@ -12,7 +12,7 @@ Users of this website will be able to read about the cat shelter, learn about th
 
 The navigation bar helps users navigate around the webpage. For mobile phones the menu is displayed when the menu toggle button is pressed.
 
-![Header]](assets/images/header.jpeg)
+![Header](assets/images/header.jpeg)
 
 ### Main section
 
