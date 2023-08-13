@@ -4,7 +4,7 @@ The Cat Shelter website is a simple website with links to different parts of the
 
 Users of this website will be able to read about the cat shelter, learn about the cats available for adoption and donate money.
 
-![alt text](amiresponsive.jpeg)
+![Responsive Mockup](amiresponsive.jpeg)
 
 ## Features
 
@@ -12,37 +12,37 @@ Users of this website will be able to read about the cat shelter, learn about th
 
 The navigation bar helps users navigate around the webpage. For mobile phones the menu is displayed when the menu toggle button is pressed.
 
-![alt text](header.jpeg)
+![Header]](header.jpeg)
 
 ### Main section
 
 The main section shows users what the site is about with the title and the picture. It also shows the address, phone number and donate button. These are all very important for an animal shelter, that's why they're in the main section.
 
-![alt text](main-section.jpeg)
+![Main Section](main-section.jpeg)
 
 ### About section
 
 The about section gives the background story of the shelter, it also contains a picture. This helps build trust and support.
 
-![alt text](about.jpeg)
+![About Section](about.jpeg)
 
 ### Section about the cats
 
 This section shows users what cats are available for adoption. It also gives a description of the cats to help users make a decision.
 
-![alt text](cats.jpeg)
+![Section about Cats](cats.jpeg)
 
 ### Contact form
 
 This gives users an easy way to contact the animal shelter.
 
-![alt text](contact-form.jpeg)
+![Contact Form](contact-form.jpeg)
 
 ### Donate section
 
 This section gives users the information they need to donate money to the cat shelter online.
 
-![alt text](donate.jpeg)
+![Donate Section](donate.jpeg)
 
 ## Testing
 
@@ -50,27 +50,27 @@ My website was tested with the following tools:
 
 - various browsers: Google Chrome, Microsoft Edge, Safari and Firefox 
 
-- [title](https://validator.w3.org/)
+- [HTML Test](https://validator.w3.org/)
   
 The first test showed a few errors, I corrected these and then did another test that had no errors.)
 
-![alt text](html-test-1.jpeg)
+![Test 1](html-test-1.jpeg)
 
-![alt text](html-test-2.jpeg)
+![Test 2](html-test-2.jpeg)
 
-- [title](https://jigsaw.w3.org/css-validator/validator)
+- [CSS Test](https://jigsaw.w3.org/css-validator/validator)
 
 This test showed no errors.
 
-![alt text](css-test.jpeg)
+![CSS Test Result](css-test.jpeg)
 
-- [title](https://ui.dev/amiresponsive)
+- [Amiresponsive test](https://ui.dev/amiresponsive)
 
-![alt text](amiresponsive.jpeg)
+![Test Result](amiresponsive.jpeg)
 
 - Lighthouse in Google devtools.
 
-![alt text](Lighthouse.png)
+![Lighthouse Test](Lighthouse.png)
 
 ## Bugs
 
@@ -91,27 +91,27 @@ the build to finish. Finally I clicked on 'github-pages'.
 
 Here is the deployed site:
 
-[title](https://catherinep37.github.io/Project-1/)
+[Deployed Site](https://catherinep37.github.io/Project-1/)
 
 ## Credits
 
 ### Images:
 
-Photo by Arina Krasnikova: [title](https: //www.pexels.com/photo/adorable-cats-on-the-floor-carpet-7725961/)
+Photo by Arina Krasnikova: [Link to picture on Pexels](https://www.pexels.com/photo/adorable-cats-on-the-floor-carpet-7725961/)
 
-Photo by cottonbro studio: [title](https://www.pexels.com/photo/woman-in-sweater-holding-orange-and-white-cat-6865039/)
+Photo by cottonbro studio: [Link to picture on Pexels](https://www.pexels.com/photo/woman-in-sweater-holding-orange-and-white-cat-6865039/)
 
-Photo by Ellie Burgin: [title](https://www.pexels.com/photo/cute-cat-on-grassy-ground-4612722/)
+Photo by Ellie Burgin: [Link to picture on Pexels](https://www.pexels.com/photo/cute-cat-on-grassy-ground-4612722/)
 
-Photo by Nikolett Emmert: [title](https://www.pexels.com/photo/cute-tabby-cat-14440674/)
+Photo by Nikolett Emmert: [Link to picture on Pexels](https://www.pexels.com/photo/cute-tabby-cat-14440674/)
 
-Photo by Jan Laugesen: [title](<https://www.pexels.com/photo/kitten-sitting-on-white-floor-12573568/)
+Photo by Jan Laugesen: [Link to picture on Pexels](<https://www.pexels.com/photo/kitten-sitting-on-white-floor-12573568/)
 
-Photo by Willy Ams: [title](https://www.pexels.com/photo/close-up-photo-of-white-cat-4056753/)
+Photo by Willy Ams: [Link to picture on Pexels](https://www.pexels.com/photo/close-up-photo-of-white-cat-4056753/)
 
-Photo by Renee Bigelow: [title](https://www.pexels.com/photo/macro-photo-of-brown-tabby-cat-51439/)
+Photo by Renee Bigelow: [Link to picture on Pexels](https://www.pexels.com/photo/macro-photo-of-brown-tabby-cat-51439/)
 
-Photo by Dorte: [title](https://www.pexels.com/photo/white-and-grey-short-fur-cat-beside-grey-rock-during-daytime-179237/)
+Photo by Dorte: [Link to picture on Pexels](https://www.pexels.com/photo/white-and-grey-short-fur-cat-beside-grey-rock-during-daytime-179237/)
 
 ### Navigation toggle menu
 
