@@ -105,7 +105,7 @@ Photo by Ellie Burgin: [Link to picture on Pexels](https://www.pexels.com/photo/
 
 Photo by Nikolett Emmert: [Link to picture on Pexels](https://www.pexels.com/photo/cute-tabby-cat-14440674/)
 
-Photo by Jan Laugesen: [Link to picture on Pexels](<https://www.pexels.com/photo/kitten-sitting-on-white-floor-12573568/)
+Photo by Jan Laugesen: [Link to picture on Pexels](https://www.pexels.com/photo/kitten-sitting-on-white-floor-12573568/)
 
 Photo by Willy Ams: [Link to picture on Pexels](https://www.pexels.com/photo/close-up-photo-of-white-cat-4056753/)
 
