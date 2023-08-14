@@ -52,7 +52,7 @@ My website was tested with the following tools:
 
 - [HTML Test](https://validator.w3.org/)
   
-The first test showed a few errors, I corrected these and then did another test that had no errors.)
+The first test showed a few errors, I corrected these and then did another test that had no errors.
 
 ![Test 1](assets/images/html-test-1.jpeg)
 
@@ -68,7 +68,7 @@ This test showed no errors.
 
 ![Test Result](assets/images/amiresponsive.jpeg)
 
-- Lighthouse in Google devtools.
+- Lighthouse in Google devtools
 
 ![Lighthouse Test](assets/images/Lighthouse.png)
 
@@ -78,15 +78,15 @@ For the wider desktop computer media query I copied and pasted the media query f
 
 The donate button wasn't responsive because the left and right padding was in pixels. I solved this by adding a percentage left and right padding.
 
-The fixed header had to be removed for larger screens as it was covering part of the grid below it and that didn't work with the design. It did work with mobile as there was a picture below it that could be partially covered without messing up the design.
+The fixed header had to be removed for larger screens as it was covering part of the grid below it and that didn't work with the design. It did work with the mobile design as there was a picture below it that could be partially covered without messing up the design.
 
 ## Deployment
 
 To deploy the site, I followed the instructions from the Love Running project.
 
-I went to the setting tab of my GitHub repo and selected pages.
+I went to the settings tab of my GitHub repo and selected pages.
 
-I made sure that the source was set to 'Deploy from Branch', the main branch was selected and the folter was set to / (root). Then I clicked save and waited for
+I made sure that the source was set to 'Deploy from Branch', the main branch was selected and the folder was set to / (root). Then I clicked save and waited for
 the build to finish. Finally I clicked on 'github-pages'.
 
 Here is the deployed site:
