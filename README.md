@@ -6,6 +6,22 @@ Users of this website will be able to read about the cat shelter, learn about th
 
 ![Responsive Mockup](assets/images/amiresponsive.jpeg)
 
+## MVP
+
+The following must be included in the project:
+
+- Title
+- Nenu bar
+- Large picture
+- Clear contact details
+- Donate button
+- About section
+- Pictures of the cats
+- Information about the cats
+- Contact form
+- Instructions about donating money
+- Social media links
+
 ## Features
 
 ### Navigation bar
