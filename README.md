@@ -26,9 +26,9 @@ The following must be included in the project:
 
 ### Who are the users?
 
-- People who would like to adopt a cat
-- People who would like to volunteer at the cat shelter
-- People who would like to donate money to the cat shelter
+- People who are interested in adopting a cat
+- People who want to volunteer at the cat shelter
+- People who want to donate money to the cat shelter
 
 ### User interviews
 
