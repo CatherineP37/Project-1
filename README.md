@@ -30,6 +30,12 @@ The following must be included in the project:
 - People who want to volunteer at the cat shelter
 - People who want to donate money to the cat shelter
 
+User research goals
+
+- Understand user goals when using this type of website
+- Understand user pain points when using websites
+- Understand what type of tasks users carry out on these type of websites
+
 ### User interviews
 
 For the qualitative research, I interviewed people who had experience with animal shelters. This included people who worked there and people who had adopted animals from animal shelters.
@@ -38,7 +44,7 @@ For the qualitative research, I interviewed people who had experience with anima
 
 For the quantitative research, I carried out a survey to find out about what users expect from an animal shelter website.
 
-### Insights from the user research
+### Key insights from the user research
 
 - Site visitors want to see what the website is about on the home page
 - Site visitors want to see a large picture on the home page
@@ -48,7 +54,6 @@ For the quantitative research, I carried out a survey to find out about what use
 - Site visitors want easy access to the contact details
 - Site owners want the site to have a donate button
 - Site owners want the site to have a contact form
-
   
 ## Features
 
