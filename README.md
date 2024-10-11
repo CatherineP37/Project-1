@@ -22,6 +22,20 @@ The following must be included in the project:
 - Instructions about donating money
 - Social media links
 
+## User research
+
+### Who are the users?
+
+- People who would like to adopt a cat
+- People who would like to volunteer at the cat shelter
+- People who would like to donate money to the cat shelter
+
+### User interviews
+
+### Surveys
+
+### Insights from the user research
+  
 ## Features
 
 ### Navigation bar
