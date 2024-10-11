@@ -54,7 +54,9 @@ For the quantitative research, I carried out a survey to find out about what use
 - Site visitors want easy access to the contact details
 - Site owners want the site to have a donate button
 - Site owners want the site to have a contact form
-  
+
+## User personas
+
 ## Features
 
 ### Navigation bar
