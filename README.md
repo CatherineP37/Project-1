@@ -30,7 +30,7 @@ The following must be included in the project:
 - People who want to volunteer at the cat shelter
 - People who want to donate money to the cat shelter
 
-User research goals
+### User research goals
 
 - Understand user goals when using this type of website
 - Understand user pain points when using websites
