@@ -32,9 +32,23 @@ The following must be included in the project:
 
 ### User interviews
 
+For the qualitative research, I interviewed people who had experience with animal shelters. This included people who worked there and people who had adopted animals from animal shelters.
+
 ### Surveys
 
+For the quantitative research, I carried out a survey to find out about what users expect from an animal shelter website.
+
 ### Insights from the user research
+
+- Site visitors want to see what the website is about on the home page
+- Site visitors want to see a large picture on the home page
+- Site visitors want a navigation menu that's easy to use
+- Site visitors want to see pictures of the cats at the shelter
+- Site visitors want information about the cats at the shelter
+- Site visitors want easy access to the contact details
+- Site owners want the site to have a donate button
+- Site owners want the site to have a contact form
+
   
 ## Features
 
