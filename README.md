@@ -95,6 +95,10 @@ As a site owner, I want the site to have a donate button so that funds can be ra
 
 As a site owner, I want the site to have a contact form so that site visitors can easily contact us about volunteering or adopting a cat.
 
+## Sitemap
+
+![Sitemap](assets/images/sitemap.png)
+
 ## Features
 
 ### Navigation bar
