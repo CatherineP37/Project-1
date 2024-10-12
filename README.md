@@ -61,21 +61,31 @@ For the quantitative research, I carried out a survey to find out about what use
 
 As a site visitor, I want to learn about the cat shelter so that I can make a decision about whether to donate money or not.
 
+![User flow diagram 1](assets/images/1.png)
+
 ### User story 2
 
 As a site visitor, I want to donate money to the cat shelter so that I can help the cats there.
+
+![User flow diagram 2](assets/images/2.png)
 
 ### User story 3
 
 As a site visitor, I want to read information about the cats available so that I can decide whether I'm interested in adopting a cat from the shelter or not.
 
+![User flow diagram 3](assets/images/3.png)
+
 ### User story 4
 
 As a site visitor, I want to contact the cat shelter so that I can ask about the cat adoption process.
 
+![User flow diagram 4](assets/images/4.png)
+
 ### User story 5
 
 As a site visitor, I want to contact the cat shelter so that I can ask about volunteering opportunities.
+
+![User flow diagram 5](assets/images/5.png)
 
 ### User story 6
 
