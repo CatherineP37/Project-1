@@ -55,7 +55,35 @@ For the quantitative research, I carried out a survey to find out about what use
 - Site owners want the site to have a donate button
 - Site owners want the site to have a contact form
 
-## User personas
+## User stories
+
+### User story 1
+
+As a site visitor, I want to learn about the cat shelter so that I can make a decision about whether to donate money or not.
+
+### User story 2
+
+As a site visitor, I want to donate money to the cat shelter so that I can help the cats there.
+
+### User story 3
+
+As a site visitor, I want to read information about the cats available so that I can decide whether I'm interested in adopting a cat from the shelter or not.
+
+### User story 4
+
+As a site visitor, I want to contact the cat shelter so that I can ask about the cat adoption process.
+
+### User story 5
+
+As a site visitor, I want to contact the cat shelter so that I can ask about volunteering opportunities.
+
+### User story 6
+
+As a site owner, I want the site to have a donate button so that funds can be raised for the cat shelter.
+
+### User story 7
+
+As a site owner, I want the site to have a contact form so that site visitors can easily contact us about volunteering or adopting a cat.
 
 ## Features
 
