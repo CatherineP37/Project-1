@@ -99,6 +99,12 @@ As a site owner, I want the site to have a contact form so that site visitors ca
 
 ![Sitemap](assets/images/sitemap.png)
 
+## Wireframes
+
+Here are some of the low fidelity wireframes for the mobile screens:
+
+![Wireframes](assets/images/wireframes.png)
+
 ## Features
 
 ### Navigation bar
