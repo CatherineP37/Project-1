@@ -103,7 +103,7 @@ As a site owner, I want the site to have a contact form so that site visitors ca
 
 Here are some of the low fidelity wireframes for the mobile screens:
 
-![Wireframes](assets/images/wireframes.png)
+![Wireframes](assets/images/wireframing.png)
 
 ## Features
 
