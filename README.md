@@ -105,11 +105,15 @@ Here are some of the low fidelity wireframes for the mobile screens:
 
 ![Wireframes](assets/images/wireframing.png)
 
-## Interactive prototype
+## Interactive Figma prototype
 
 I made a basic interactice prototype in Figma and carried out usability tests with it. Here is a video of the prototype being tested:
 
 https://github.com/user-attachments/assets/fc362217-8eb3-41e0-b638-23f370411e1a
+
+## High fidelity wireframes
+
+![Wireframes](assets/images/hf_wireframes.png)
 
 ## Features
 
