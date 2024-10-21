@@ -6,6 +6,9 @@ Users of this website will be able to read about the cat shelter, learn about th
 
 ![Responsive Mockup](assets/images/amiresponsive.jpeg)
 
+## Table of contents
+
+
 ## MVP
 
 The following must be included in the project:
