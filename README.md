@@ -152,6 +152,11 @@ This gives users an easy way to contact the animal shelter.
 This section gives users the information they need to donate money to the cat shelter online.
 
 ![Donate Section](assets/images/donate.jpeg)
+# Build
+
+I built the site with HTML and CSS. Here is the link to the deployed site:
+
+[Deployed Site](https://catherinep37.github.io/Project-1/)
 
 ## Testing
 
@@ -197,10 +202,6 @@ I went to the settings tab of my GitHub repo and selected pages.
 
 I made sure that the source was set to 'Deploy from Branch', the main branch was selected and the folder was set to / (root). Then I clicked save and waited for
 the build to finish. Finally I clicked on 'github-pages'.
-
-Here is the deployed site:
-
-[Deployed Site](https://catherinep37.github.io/Project-1/)
 
 ## Credits
 
