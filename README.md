@@ -8,6 +8,19 @@ Users of this website will be able to read about the cat shelter, learn about th
 
 ## Table of contents
 
+- [MVP](#mvp)
+- [User research](#user-research)
+- [User stories](#user-stories)
+- [Sitemap](#sitemap)
+- [Wireframes](#wireframes)
+- [Interactive Figma prototype](#interactive-figma-prototype)
+- [High fidelity wireframes](#high-fidelity-wireframes)
+- [Features](#features)
+- [Build](#build)   
+- [Testing](#testing)
+- [Bugs](#bugs)   
+- [Deployment](#deployment)
+- [Credits](#credits)
 
 ## MVP
 
