@@ -123,7 +123,7 @@ Here are some of the low fidelity wireframes for the mobile screens:
 
 ## Interactive Figma prototype
 
-I made a basic interactice prototype in Figma and carried out usability tests with it. Here is a video of the prototype being tested:
+I made a interactive prototype in Figma and carried out usability tests with it. Here is a video of the prototype being tested:
 
 https://github.com/user-attachments/assets/fc362217-8eb3-41e0-b638-23f370411e1a
 
@@ -168,6 +168,7 @@ This gives users an easy way to contact the animal shelter.
 This section gives users the information they need to donate money to the cat shelter online.
 
 ![Donate Section](assets/images/donate.jpeg)
+
 # Build
 
 I built the site with HTML and CSS. Here is the link to the deployed site:
