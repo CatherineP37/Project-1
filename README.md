@@ -4,7 +4,7 @@ The Cat Shelter website is a simple website with links to different parts of the
 
 Users of this website will be able to read about the cat shelter, learn about the cats available for adoption and donate money.
 
-![Responsive Mockup](assets/images/prototype.png)
+![Responsive Mockup](assets/images/1.webp)
 
 ## Table of contents
 
